@@ -6,26 +6,11 @@ const menus = [
     },
     {
         id: 2,
-        tomenu: "#chapters",
-        namemenu: "chapters"
-    },
-    {
-        id: 3,
         tomenu: "#reviews",
         namemenu: "reviews"
     },
     {
-        id: 4,
-        tomenu: "#author",
-        namemenu: "author"
-    },
-    {
-        id: 5,
-        tomenu: "#pricing",
-        namemenu: "pricing"
-    },
-    {
-        id: 6,
+        id: 3,
         tomenu: "#contact",
         namemenu: "Contact"
     },

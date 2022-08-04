@@ -10,15 +10,7 @@ class Home01 extends Component {
                         <Banner />
                         <Intro />
                         <About />
-                        <Chapter />
-                        <Features />
-                        <Feature2 />
-                        <Counter />
-                        <Cta />
                         <Review />
-                        <Author />
-                        <Pricing />
-                        <Faq />
                         <Contact />
                 <Footer />
             </div>

@@ -9,9 +9,18 @@ class Review extends Component {
                     id: 1,
                     img: './assets/images/clients/test-1.jpg',
                     alt: 'images',
-                    quoteText: 'Very Effective!',
-                    text: 'They are creative enough.Very much creative and powerful enough.Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    name: 'John Doe',
+                    quoteText: 'Beyond engaging Tales With Real Substance and Wisdom.',
+                    text: `
+                        I came across this incredible writer and all I can say is THIS is how it’s done! Short stories are
+                        certainly not everyone’s cup of words, but many people simply don’t realize how extremely
+                        satisfying it is to read a complete story with vivid characters and an engaging plot, all done in a
+                        distinctive and well delivered manner . Each story was unique and well written with few of the
+                        stories’ ending with a twist I didn&#39;t see coming.
+                        This is a truly inventive collection of William&#39;s short stories and although I enjoyed his other
+                        novel too, “Calamitous Fortunes”, I’m hoping that he will publish another book soon. He has a
+                        gifted imagination and this collection is definitely one of my favorites.
+                    `,
+                    name: 'VNB',
                     desigantion: 'Developer',
                     classname: 'review-item'
                 },
@@ -19,9 +28,15 @@ class Review extends Component {
                     id:2,
                     img: './assets/images/clients/test-2.jpg',
                     alt: 'images',
-                    quoteText: 'Very Effective!',
-                    text: 'They are creative enough.Very much creative and powerful enough.Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    name: 'John Doe2',
+                    quoteText: 'Remarkable read. A must.',
+                    text: `
+                        Fully enjoyed the development of each set of characters. I found in a macabre way I was able to
+                        relate to them. This is not your ordinary book with ordinary circumstances. The twists are built
+                        up in crescendo so that you are unable to leave the story...until that final reveal. And then you get
+                        this rush of finality as the story comes to an end. A few of them I wanted to jump up and give a
+                        standing ovation.
+                    `,
+                    name: 'SRH',
                     desigantion: 'Developer',
                     classname: 'review-item'
                 },
@@ -29,9 +44,12 @@ class Review extends Component {
                     id: 3,
                     img: './assets/images/clients/test-3.jpg',
                     alt: 'images',
-                    quoteText: 'Very Effective!',
-                    text: 'They are creative enough.Very much creative and powerful enough.Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    name: 'John Doe3',
+                    quoteText: 'Stories that take you on Adventures',
+                    text: `
+                    Each of the stories takes the reader on very different journeys. The voice of the author is clear
+                    and truthful; a pleasure to read. I can&#39;t wait for more....
+                    `,
+                    name: 'Bruce R. Pfaff',
                     desigantion: 'Developer',
                     classname: 'review-item'
                 },
@@ -39,9 +57,16 @@ class Review extends Component {
                     id:4,
                     img: './assets/images/clients/test-2.jpg',
                     alt: 'images',
-                    quoteText: 'Very Effective!',
-                    text: 'They are creative enough.Very much creative and powerful enough.Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-                    name: 'John Doe2',
+                    quoteText: 'Stop Reading Reviews and Read This Book',
+                    text: `
+                        I don&#39;t care who you are, what you like, or where you come from... You need to read this book. I
+                        promise there is at least one story in this book that will speak to you. For me, it was all ten. Each
+                        had a character I related to, a story that I both recognized and did not (in the utmost positive
+                        way), and an idea that made me truly think. I wish I could express to you eloquently that you
+                        must read this book, but I do not possess the writing skills for this. Mr. Spreadbury does though,
+                        so go see for yourself.
+                    `,
+                    name: 'Riley Lyn',
                     desigantion: 'Developer',
                     classname: 'review-item'
                 },
@@ -52,7 +77,7 @@ class Review extends Component {
     render() {
         const options = {
             loop: true,
-            nav: false,
+            nav: true,
             dots: true,
             margin: 10,
             center: true,
@@ -79,13 +104,12 @@ class Review extends Component {
             }
         };
         return (
-        <section class="testimonial section-padding bg-grey " id="testimonial">
+        <section class="testimonial section-padding bg-grey " id="reviews">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section-heading center-heading text-center mb-60">
-                            <h3 class="heading-title">Reviews from happy readers</h3>
-                            <p>This book is concerned with creating typography and is essential for professionals who regularly work for clients.</p>
+                            <h3 class="heading-title">Reviews for <i>The Name of the Book</i></h3>
                         </div>
                     </div>
                 </div>

@@ -11,8 +11,8 @@ const menus = [
     },
     {
         id: 3,
-        tomenu: "#testimonial",
-        namemenu: "testimonial"
+        tomenu: "#reviews",
+        namemenu: "reviews"
     },
     {
         id: 4,

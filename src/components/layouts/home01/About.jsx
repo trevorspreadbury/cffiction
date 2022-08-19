@@ -51,18 +51,7 @@ class About extends Component {
                                 you to the part of your soul you pretend does not exist.</p>
                             </div>
 
-                        {
-                            this.state.about.map(data => (
-                                <div className="about-text-block" key={data.id}>
-                                    <i className={data.icon}></i>
-                                    <h4>{data.title}</h4>
-                                    <p>{data.text} </p>
-                                </div>
-                            ))
-                        }
-                        
-                        <Link to="#" className="btn btn-main-2"><i className="fa fa-check mr-2"></i>More About Support</Link> 
-                    </div>
+                        </div>
                 </div>
             </div>
         </section>  

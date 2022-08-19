@@ -134,12 +134,12 @@ class Review extends Component {
                                         </div>
 
                                         <div class="client-desc d-flex align-items-center">
-                                            <div className="client-img">
-                                                <img src={data.img} alt={data.alt} className="img-fluid"/>
-                                            </div>
+                                            {/* <div className="client-img"> */}
+                                                {/* <img src={data.img} alt={data.alt} className="img-fluid"/> */}
+                                            {/* </div> */}
                                             <div class="client-text">
                                                 <h5>{data.name}</h5>
-                                                <span className="designation">{data.desigantion}</span>
+                                                {/* <span className="designation">{data.desigantion}</span> */}
                                             </div>
                                         </div>
                                     </div> 

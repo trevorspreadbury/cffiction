@@ -16,7 +16,7 @@ class Header extends Component {
                     <nav className="navbar navbar-expand-lg">
                         <div className="container">
                             <Link to="/" className="navbar-brand">
-                                <img src="assets/images/shinySide.jdpg" alt="CfFiction" className="img-fluid"/>
+                                <img src="assets/images/shinySide.jpg" alt="CfFiction" className="img-fluid"/>
                             </Link>
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,23 +25,6 @@ class Header extends Component {
 
                             <div className="collapse navbar-collapse" id="navbarMenu">
                                 <ul className="navbar-nav ml-auto">
-                                    <li className="nav-item dropdown">
-                                        <Link to="#" className="nav-link dropdown-toggle"  
-                                            id="navbar2" role="button" data-toggle="dropdown" aria-haspopup="true" 
-                                            aria-expanded="false">Home <i className="fa fa-angle-down"></i>
-                                        </Link>
-                                        <ul className="dropdown-menu" >
-                                            {
-                                                links.map(data => (
-                                                    
-                                                    <Link className="dropdown-item" to={data.tolink} onClick={() => {window.location.href=data.tolink}}>
-                                                        {data.namelink}
-                                                    </Link>
-                                                ))
-                                            }
-                                        </ul>
-                                    </li>
-
                                     {
                                         menus.map(menu => (
                                             <li className="nav-item " key={menu.id}><Link to={menu.tomenu} className="nav-link js-scroll-trigger">{menu.namemenu}</Link></li>

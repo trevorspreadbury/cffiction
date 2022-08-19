@@ -1,5 +1,10 @@
 const menus = [
     {
+        id: 0,
+        tomenu: "#",
+        namemenu: "Home"
+    },
+    {
         id: 1,
         tomenu: "#about",
         namemenu: "About"

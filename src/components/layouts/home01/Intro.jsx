@@ -9,9 +9,10 @@ class Intro extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="section-heading text-center">
-                                <span>Creative works funnel</span>
-                                <h2>Explore the most appropriate courses and certificate that you desire will be the sweet ultimate reward. Let’s get started</h2>
-                                <Link to="#">Have questions?​ <strong className="text-color">Get Free Guidebook</strong> </Link>
+                                <Link to="https://www.amazon.com/Name-Book-Collection-Interesting-Self-Serving/dp/1717867936">Click here to buy The Name of the Book now on Amazon! </Link>
+                            </div>
+                            <div className="section-heading text-center">
+                                <Link to="https://www.amazon.com/Calamitous-Fortunes-Fiction-Christopher-Spreadbury/dp/107645108X">Click here to buy Calamitous Fortunes now on Amazon! </Link>
                             </div>
                         </div>
                     </div>
@@ -20,34 +21,19 @@ class Intro extends Component {
                 <section className="cta-2 clients ">
                     <div className="container">
                         <div className="row">
-                            <div className="col-lg-2 col-sm-6 ">
+                            <div className="col-lg-4 col-sm-8 ">
                                 <div className="client-logo">
-                                    <img src="assets/images/clients/logo1.png" alt="" className="img-fluid"/>
+                                    <img src="assets/images/saskiasNever.jpg" alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-sm-6">
+                            <div className="col-lg-4 col-sm-8">
                                 <div className="client-logo">
-                                    <img src="assets/images/clients/logo2.png" alt="" className="img-fluid"/>
+                                    <img src="assets/images/calamitousFortunes.jpg" alt="" className="img-fluid"/>
                                 </div>
                             </div>
-                            <div className="col-lg-2 col-sm-6">
+                            <div className="col-lg-4 col-sm-8">
                                 <div className="client-logo">
-                                    <img src="assets/images/clients/logo3.png" alt="" className="img-fluid"/>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="assets/images/clients/logo4.png" alt="" className="img-fluid"/>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="assets/images/clients/logo5.png" alt="" className="img-fluid"/>
-                                </div>
-                            </div>
-                            <div className="col-lg-2 col-sm-6">
-                                <div className="client-logo">
-                                    <img src="assets/images/clients/logo6.png" alt="" className="img-fluid"/>
+                                    <img src="assets/images/theNameOfTheBook.jpg" alt="" className="img-fluid"/>
                                 </div>
                             </div>
                         </div>

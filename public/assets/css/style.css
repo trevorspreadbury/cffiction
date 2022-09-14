@@ -52,6 +52,18 @@ p {
   font-size: 16px;
 }
 
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.break {
+  padding-bottom: 1em;
+}
+
 /*--------------------
  TYPOGRAPHY
 -----------------*/

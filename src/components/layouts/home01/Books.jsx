@@ -72,19 +72,19 @@ class Books extends Component {
         <section className="about-section section-padding bg-grey" id="books">
             {
                 this.state.about.map(data => (
-                    <div className="container">
+                    <div className="container break">
                         <div className="row">
                             <div className="col-lg-6 col-md-6">
-                                <div className="about-img">
+                                <div className="about-img vertical-center">
                                     <img src={data.img} alt="Cover of novel" className="img-fluid"/>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-6">
-                                <div className="section-heading">
+                                <div className="section-heading vertical-center">
                                     {/* <span className="subheading">50% discount on early purchase</span> */}
                                     <h3 className="heading-title">{data.title}</h3>
                                     <p>{data.text}</p>
-                                    </div>
+                                </div>
 
                                 </div>
                         </div>

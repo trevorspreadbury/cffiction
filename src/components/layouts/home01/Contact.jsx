@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import React, { Component } from 'react';
 // import {Link} from 'react-router-dom'
 
@@ -10,8 +11,7 @@ class Contact extends Component {
                     <div className="row justify-content-center">
                         <div className="col-lg-8">
                             <div className="section-heading center-heading text-center mb-60">
-                                <h3 className="heading-title">Contact with Author</h3>
-                                <p>This book is concerned with creating typography and is essential for professionals who regularly work for clients.</p>
+                                <h3 className="heading-title">Contact</h3>
                             </div>
                         </div>
                     </div>
@@ -45,7 +45,7 @@ class Contact extends Component {
                                 
                                 <div className="col-lg-12">
                                     <div className="d-lg-flex justify-content-between mt-4">
-                                        <p>* Rest assured. We will not spam at your inbox.</p>
+                                        <p>* We will not spam or sell information</p>
                                         <input id="submit" name="submit" type="submit" className="btn btn-main-2" value="Send Message"/>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
-            </section>
+           </section>
         );
     }
 }

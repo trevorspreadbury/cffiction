@@ -12,7 +12,8 @@ import Author from './Author';
 import Pricing from './Pricing';
 import Faq from './Faq';
 import Contact from './Contact';
-import Footer from './Footer'
+import Footer from './Footer';
+import Books from './Books';
 
 export {Header, Banner,Intro, Chapter, About, Features, Feature2,Counter,Cta,Review,Author,Pricing,
-    Faq,Contact,Footer}
+    Faq,Contact,Footer, Books}

@@ -16,7 +16,7 @@ class Header extends Component {
                     <nav className="navbar navbar-expand-lg">
                         <div className="container">
                             <Link to="/" className="navbar-brand">
-                                <img src="assets/images/shinySide.jpg" alt="CfFiction" className="img-fluid"/>
+                                <img src="assets/images/shinySide.jpg" alt="CFfiction - Real Life, Made Interesting" className="img-fluid"/>
                             </Link>
 
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,14 +34,6 @@ class Header extends Component {
                                 </ul>
                             </div>
 
-                            <div className="header-right-info d-none d-lg-block">
-                                <ul className="header-socials">
-                                    <li><Link to="#"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
-                                    <li><Link to="#"><i className="fab fa-twitter" aria-hidden="true" /></Link></li>
-                                    <li><Link to="#"><i className="fab fa-linkedin" aria-hidden="true" /></Link></li>
-                                    <li><Link to="#"><i className="fab fa-pinterest" aria-hidden="true" /></Link></li>
-                                </ul>
-                            </div>
                         </div> 
                     </nav>
                 </div>

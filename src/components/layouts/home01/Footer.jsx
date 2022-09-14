@@ -24,6 +24,11 @@ class Footer extends Component {
                                         <ul className="list-unstyled">
                                             <li>info@cffiction.com</li>
                                         </ul>
+                                                        <ul className="footer-socials">
+                    <li><Link to="#"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
+                    <li><Link to="#"><i className="fab fa-twitter" aria-hidden="true" /></Link></li>
+                </ul>
+ 
                                     </div>
                                 </div>
                             </div>

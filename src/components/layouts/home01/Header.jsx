@@ -34,14 +34,6 @@ class Header extends Component {
                                 </ul>
                             </div>
 
-                            <div className="header-right-info d-none d-lg-block">
-                                <ul className="header-socials">
-                                    <li><Link to="#"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
-                                    <li><Link to="#"><i className="fab fa-twitter" aria-hidden="true" /></Link></li>
-                                    <li><Link to="#"><i className="fab fa-linkedin" aria-hidden="true" /></Link></li>
-                                    <li><Link to="#"><i className="fab fa-pinterest" aria-hidden="true" /></Link></li>
-                                </ul>
-                            </div>
                         </div> 
                     </nav>
                 </div>

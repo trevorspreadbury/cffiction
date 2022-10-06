@@ -373,12 +373,18 @@ Header TopBar
    MENU
 ----------------------*/
 .site-navigation {
-  border-bottom: 1px solid #eee;
-  padding: 12px 0px;
+  /* border-bottom: 1px solid #eee; */
+  padding:  0px;
 }
 
 .navbar {
   padding: 0px;
+  background-color: #e7244a;
+  color: #000000;
+}
+
+.navbar-brand {
+  color: #000000;
 }
 
 .navbar-nav .nav-link {
@@ -393,7 +399,7 @@ Header TopBar
 }
 
 .navbar-nav .nav-link:hover {
-  color: #FF4343;
+  color: #20b0cb;
 }
 
 .navbar-nav .nav-link i {
@@ -486,6 +492,11 @@ Header TopBar
 .banner {
   padding: 60px 0px;
   background: #F8F8F8;
+}
+
+.center-text {
+  text-align: center;
+  margin:auto;
 }
 
 .banner .banner-content h1 {

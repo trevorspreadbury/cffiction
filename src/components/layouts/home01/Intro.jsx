@@ -5,7 +5,15 @@ class Intro extends Component {
     render() {
         return (
             <section id="shop" className="pt-100 center-about bg-grey">
-
+                <div className="container">
+                <div className="row align-items-center justify-content-between">
+                <div className="banner-content center-text">
+                    <h1>Foster & VonCharles</h1>
+                    <h3>Proudly welcome you to</h3>
+                    <h3>The Works of William Christopher Spreadbury</h3>
+                </div>
+                </div>
+                </div>
                 <section className="cta-2 clients ">
                     <div className="container">
                         <div className="row">

@@ -6,7 +6,7 @@ class Intro extends Component {
         return (
             <section id="shop" className="pt-100 center-about bg-grey">
                 <div className="container">
-                <div className="row align-items-center ">
+                <div className="row align-items-center justify-content-between">
                 <div className="banner-content center-text">
                     <h1>Foster & VonCharles</h1>
                     <h3>Proudly welcome you to</h3>

@@ -16,6 +16,10 @@ class Intro extends Component {
                 </div>
                 <section className="cta-2 clients ">
                     <div className="container">
+                        <div className="center-text">
+                            <h4><em>Click images to purchase on Amazon!</em></h4>
+                        <br></br>
+                        </div>
                         <div className="row">
                             <div className="col-lg-4 col-4 col-sm-4">
                                 <a href="https://www.amazon.com/Name-Book-Collection-Interesting-Self-Serving/dp/1717867936">

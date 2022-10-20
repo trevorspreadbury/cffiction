@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Header, Banner, Intro, About, Review, Contact, Footer, Books } from '../layouts/home01/index';
+import {Header, Intro, About, Review, Contact, Footer, Books } from '../layouts/home01/index';
 
 class Home01 extends Component {
     render() {
@@ -10,7 +10,6 @@ class Home01 extends Component {
                         <Books />
                         <Review />
                         <About />
-                        <Contact />
                 <Footer />
             </div>
         );

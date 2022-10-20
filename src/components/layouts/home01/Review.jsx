@@ -46,7 +46,8 @@ class Review extends Component {
                 1200: {
                 items: 3
                 }
-            }
+            },
+            navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>'],
         };
         return (
         <section class="testimonial section-padding bg-grey " id="reviews">

@@ -23,7 +23,8 @@ class Books extends Component {
                         Christopher Spreadbury and his autonomous alter ego, and their
                         fascination with water. While these stories do not attempt to answer the
                         question, why are we here, it will definitely tell you what is here. And it is
-                        everywhere.`
+                        everywhere.`,
+                    bold: "Audiobook coming soon available on Audible, Amazon, and iTunes"
                 },
                 {
                     id: 2,
@@ -35,7 +36,6 @@ class Books extends Component {
                         three families, all ravaged by the same catastrophic event, each dealing
                         with it in very different ways. Calamitous Fortunes, is a beautifully
                         written novel, that also explores the supernatural force in the Universe that
-                        
                         shapes all of our lives. That mystical being that none of us have seen, but
                         still believe in its existence. It is not tangible, but most insist it is not
                         imaginary. We all pray that it looks upon us with great favor. CF is the
@@ -70,28 +70,69 @@ class Books extends Component {
     render() {
         return (
         <section className="about-section section-padding bg-grey" id="books">
-            {
-                this.state.about.map(data => (
-                    <div className="container break">
-                        <div className="row">
-                            <div className="col-lg-6 col-md-6">
-                                <div className="about-img vertical-center">
-                                    <img src={data.img} alt="Cover of novel" className="img-fluid"/>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-md-6">
-                                <div className="section-heading vertical-center">
-                                    {/* <span className="subheading">50% discount on early purchase</span> */}
-                                    <h3 className="heading-title">{data.title}</h3>
-                                    <p>{data.text}</p>
-                                </div>
-
-                                </div>
+            <div className="container break">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6">
+                        <div className="about-img vertical-center">
+                            <img src={this.state.about[0].img} alt="Cover of novel" className="img-fluid"/>
                         </div>
                     </div>
-                ))
-            }
-                   </section>  
+                    <div className="col-lg-6 col-md-6">
+                        <div className="section-heading vertical-center">
+                            <h3 className="heading-title">{this.state.about[0].title}</h3>
+                            <p>{this.state.about[0].text}</p>
+                            <b>{this.state.about[0].bold}</b>
+                        </div>
+
+                        </div>
+                </div>
+            </div>
+            <div className="container break">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6">
+                        <div className="about-img vertical-center">
+                            <img src={this.state.about[1].img} alt="Cover of novel" className="img-fluid"/>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6">
+                        <div className="section-heading vertical-center">
+                            <h3 className="heading-title">{this.state.about[1].title}</h3>
+                            <p>
+                        William and his mysterious partner are back with the incredible story of
+                        three families, all ravaged by the same catastrophic event, each dealing
+                        with it in very different ways. Calamitous Fortunes, is a beautifully
+                        written novel, that also explores the supernatural force in the Universe that
+                        shapes all of our lives. That mystical being that none of us have seen, but
+                        still believe in its existence. It is not tangible, but most insist it is not
+                        imaginary. We all pray that it looks upon us with great favor. CF is the
+                        story of LUCK. Dane Cooper, the patriarch of one of the families comes
+                        up with a devious plan for redemption after Luck forsakes him. The plan
+                        involves killing one of his own children, but as depraved as Dane’s plan
+                        may sound, as you <em>read on</em>, you will find there are others with far more
+                        sinister intentions.
+                            </p>
+                        </div>
+
+                        </div>
+                </div>
+            </div>
+            <div className="container break">
+                <div className="row">
+                    <div className="col-lg-6 col-md-6">
+                        <div className="about-img vertical-center">
+                            <img src={this.state.about[2].img} alt="Cover of novel" className="img-fluid"/>
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-6">
+                        <div className="section-heading vertical-center">
+                            <h3 className="heading-title">{this.state.about[2].title}</h3>
+                            <p>{this.state.about[2].text}</p>
+                        </div>
+
+                        </div>
+                </div>
+            </div>
+        </section>  
         );
     }
 }

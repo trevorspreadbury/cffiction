@@ -1,5 +1,4 @@
 import Header from './Header';
-import Banner from './Banner';
 import Intro from './Intro';
 import About from './About';
 import Features from './Features';
@@ -15,5 +14,5 @@ import Contact from './Contact';
 import Footer from './Footer';
 import Books from './Books';
 
-export {Header, Banner,Intro, Chapter, About, Features, Feature2,Counter,Cta,Review,Author,Pricing,
+export {Header, Intro, Chapter, About, Features, Feature2,Counter,Cta,Review,Author,Pricing,
     Faq,Contact,Footer, Books}

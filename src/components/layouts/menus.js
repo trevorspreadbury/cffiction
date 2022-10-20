@@ -24,11 +24,6 @@ const menus = [
         tomenu: "#about",
         namemenu: "About"
     },
-    {
-        id: 5,
-        tomenu: "#contact",
-        namemenu: "Contact"
-    }
 ];
 
 

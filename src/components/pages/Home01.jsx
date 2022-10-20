@@ -10,7 +10,6 @@ class Home01 extends Component {
                         <Books />
                         <Review />
                         <About />
-                        <Contact />
                 <Footer />
             </div>
         );

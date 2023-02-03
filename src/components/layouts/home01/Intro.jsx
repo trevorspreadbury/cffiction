@@ -6,13 +6,31 @@ class Intro extends Component {
         return (
             <section id="shop" className="pt-100 center-about bg-grey">
                 <div className="container">
-                <div className="row align-items-center justify-content-between">
-                <div className="banner-content center-text">
-                    <h1>Foster & VonCharles</h1>
-                    <h3>Proudly welcome you to</h3>
-                    <h3>The Works of William Christopher Spreadbury</h3>
-                </div>
-                </div>
+                    <div className="row align-items-center justify-content-between">
+                        <div className="banner-content center-text">
+                        <h1>Foster & VonCharles</h1>
+                        <h3>Proudly welcome you to</h3>
+                        <h3>The Works of William Christopher Spreadbury</h3>
+                        </div>
+                    </div>
+                    <br></br>
+                    <br></br>
+                    <div className="row align-items-center justify-content-between">
+                        <div className="banner-content center-text">
+                        <h2>AUDIOBOOK NOW AVAILABLE</h2>
+                        <h2>GET IT ON AUDIBLE, ITUNES, OR AMAZON</h2>
+                        <h2>Click the banner below!</h2>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <a href="https://www.audible.com/pd/B0BT448PF5/?source_code=AUDFPWS0223189MWT-BK-ACX0-337284&ref=acx_bty_BK_ACX0_337284_rh_us">
+                                <div className="client-logo">
+                                    <img src="assets/images/theNameOfTheBook-banner.jpg" alt="banner for The Name of The Book" className="img-fluid"></img>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <section className="cta-2 clients ">
                     <div className="container">

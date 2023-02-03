@@ -339,6 +339,11 @@ Banner Area
 /*=======================
 Header TopBar
 ============================*/
+img {
+  font-family: 'Charm', 'cursive';
+}
+
+
 .header-contact li, .header-socials li {
   float: left;
 }

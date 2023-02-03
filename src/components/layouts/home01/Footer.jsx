@@ -9,24 +9,21 @@ class Footer extends Component {
                     <div className="row">
                         <div className="col-lg-4 mr-auto col-sm-6 col-md-12">
                             <div className="widget footer-widget mb-5 mb-lg-0">
-                                <h5 className="widget-title">CfFiction</h5>
-                                <p className="mt-3">Real Life, Made Interesting</p>
+                                <h5 className="widget-title">Contact</h5>
+                                <p className="mt-3">Comments? Questions? Observations? Multi million dollar television or movie offers? Contact us at CalamitousFortunes.com</p>
                             </div>
                         </div>
                         
                         <div className="col-lg-6 col-sm-6 col-md-12">
                             <div className="footer-widget mb-5 mb-lg-0">
-                                <h5 className="widget-title">Information</h5>
+                                <h5 className="widget-title">Social</h5>
                             </div>
                             <div className="row">
                                 <div className="col-lg-6 col-md-6">
                                     <div className="footer-widget footer-contact mb-5 mb-lg-0">
-                                        <ul className="list-unstyled">
-                                            <li>info@cffiction.com</li>
-                                        </ul>
                                                         <ul className="footer-socials">
-                    <li><Link to="#"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
-                    <li><Link to="#"><i className="fab fa-twitter" aria-hidden="true" /></Link></li>
+                    <li><Link to={{ pathname:"https://www.facebook.com/willcspread" }} target="_blank"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
+                    <li><Link to={{ pathname:"https://www.instagram.com/willcspread/" }} target="_blank"><i className="fab fa-instagram" aria-hidden="true" /></Link></li>
                 </ul>
  
                                     </div>
@@ -41,7 +38,7 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="copyright">
-                                    <p>@ 2021-Copyright reserved to BooHunt.Proudly Crafted by <Link to="https://themeforest.net/user/dreambuzz">Dreambuzz</Link> </p>
+                                    <p>Copyright, 2023. Template Crafted by <Link to="https://themeforest.net/user/dreambuzz">Dreambuzz</Link> </p>
                                 </div>
                             </div>
                         </div>

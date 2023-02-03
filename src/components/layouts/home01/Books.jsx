@@ -24,7 +24,7 @@ class Books extends Component {
                         fascination with water. While these stories do not attempt to answer the
                         question, why are we here, it will definitely tell you what is here. And it is
                         everywhere.`,
-                    bold: "Audiobook coming soon available on Audible, Amazon, and iTunes"
+                    bold: "Audiobook now available on Audible, Amazon, and iTunes"
                 },
                 {
                     id: 2,

@@ -22,11 +22,11 @@ class Footer extends Component {
                                 <div className="col-lg-6 col-md-6">
                                     <div className="footer-widget footer-contact mb-5 mb-lg-0">
                                         <ul className="list-unstyled">
-                                            <li>info@cffiction.com</li>
+                                            <li>calamitousfortunes@gmail.com</li>
                                         </ul>
                                                         <ul className="footer-socials">
-                    <li><Link to="#"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
-                    <li><Link to="#"><i className="fab fa-twitter" aria-hidden="true" /></Link></li>
+                    <li><Link to="https://www.facebook.com/willcspread"><i className="fab fa-facebook-f" aria-hidden="true" /></Link></li>
+                    <li><Link to="https://www.instagram.com/willcspread/"><i className="fab fa-instagram" aria-hidden="true" /></Link></li>
                 </ul>
  
                                     </div>
@@ -41,7 +41,7 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="copyright">
-                                    <p>@ 2021-Copyright reserved to BooHunt.Proudly Crafted by <Link to="https://themeforest.net/user/dreambuzz">Dreambuzz</Link> </p>
+                                    <p>Copyright, 2023. Template Crafted by <Link to="https://themeforest.net/user/dreambuzz">Dreambuzz</Link> </p>
                                 </div>
                             </div>
                         </div>

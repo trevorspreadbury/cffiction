@@ -10,7 +10,7 @@ class Footer extends Component {
                         <div className="col-lg-4 mr-auto col-sm-6 col-md-12">
                             <div className="widget footer-widget mb-5 mb-lg-0">
                                 <h5 className="widget-title">Contact</h5>
-                                <p className="mt-3">Comments? Questions? Observations? Multi million dollar television or movie offers? Contact us at CalamitousFortunes.com</p>
+                                <p className="mt-3">Comments? Questions? Observations? Multi million dollar television or movie offers? Contact us at CalamitousFortunes@gmail.com</p>
                             </div>
                         </div>
                         

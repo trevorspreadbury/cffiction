@@ -31,6 +31,11 @@ class Intro extends Component {
                             </a>
                         </div>
                     </div>
+                    <div className="row align-items-center justify-content-between">
+                        <div className="banner-content center-text">
+                        <h2>Narrated by the incomparable, Scott Fleming</h2>
+                        </div>
+                    </div>
                 </div>
                 <section className="cta-2 clients ">
                     <div className="container">
